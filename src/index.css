@@ -27,7 +27,7 @@ html {
   font-size: 2rem;
 
   position: fixed;
-  bottom: 50px;
+  bottom: 100px;
   right: 50px;
   cursor: pointer;
 }
@@ -56,5 +56,11 @@ html {
 @media (max-width: 475px) {
   html {
     font-size: 47.5%;
+  }
+  .translate-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
   }
 }

@@ -299,6 +299,7 @@ main img {
 @media (max-width: 475px) {
   .main-image-section {
     height: 220px;
+    background-position: center;
   }
 
   .maps-section .info h3 {
