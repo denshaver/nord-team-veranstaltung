@@ -1,0 +1,83 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url(../assets/images/ukraine.jpeg);
+  background-position: center;
+  background-size: cover;
+  padding: 1rem 3rem;
+  margin-bottom: 3rem;
+}
+
+header img {
+  width: 200px;
+}
+
+header .left {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+header .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .right img {
+  width: 250px;
+}
+
+header span {
+  font-size: 1.5rem;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  header {
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  header img {
+    width: 170px;
+  }
+
+  header .left {
+    gap: 2rem;
+  }
+
+  header .right img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0.5rem 0.9rem;
+  }
+
+  header img {
+    width: 120px;
+  }
+
+  header .left {
+    gap: 1rem;
+  }
+
+  header .right img {
+    width: 150px;
+  }
+
+  header span {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 475px) {
+  header .left img:last-child {
+    display: none;
+  }
+}
